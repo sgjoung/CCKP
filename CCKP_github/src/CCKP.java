@@ -572,7 +572,7 @@ public class CCKP {
 				+ ",\"avg_time_zstar\":" + avgTzstar
 				+ ",\"avg_time_zl\":" + avgTzL
 				+ "}";
-		appendJsonArray("result_exact_park_maximal.json", json);
+		appendJsonArray("result_violation_max.json", json);
 		return avggap;
 	}
 
